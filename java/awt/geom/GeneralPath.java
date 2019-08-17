@@ -1,0 +1,29 @@
+package java.awt.geom;
+
+import java.awt.Shape;
+
+public final class GeneralPath extends Path2D.Float {
+  private static final long serialVersionUID = -8327096662768731142L;
+  
+  public GeneralPath() { super(1, 20); }
+  
+  public GeneralPath(int paramInt) { super(paramInt, 20); }
+  
+  public GeneralPath(int paramInt1, int paramInt2) { super(paramInt1, paramInt2); }
+  
+  public GeneralPath(Shape paramShape) { super(paramShape, null); }
+  
+  GeneralPath(int paramInt1, byte[] paramArrayOfByte, int paramInt2, float[] paramArrayOfFloat, int paramInt3) {
+    this.windingRule = paramInt1;
+    this.pointTypes = paramArrayOfByte;
+    this.numTypes = paramInt2;
+    this.floatCoords = paramArrayOfFloat;
+    this.numCoords = paramInt3;
+  }
+}
+
+
+/* Location:              D:\software\jd-gui\jd-gui-windows-1.6.3\rt.jar!\java\awt\geom\GeneralPath.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.0.7
+ */

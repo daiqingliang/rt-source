@@ -1,0 +1,11 @@
+package jdk.management.resource.internal;
+
+public class WrapInstrumentation {
+  public boolean wrapComplete() { return false; }
+}
+
+
+/* Location:              D:\software\jd-gui\jd-gui-windows-1.6.3\rt.jar!\jdk\management\resource\internal\WrapInstrumentation.class
+ * Java compiler version: 8 (52.0)
+ * JD-Core Version:       1.0.7
+ */
